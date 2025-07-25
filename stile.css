@@ -40,7 +40,18 @@
 .contatti {
     background-image: url("contatti.png");
 }
-
+.home {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    background-image: 
+    url("home.png");
+}
 @font-face {
    font-family: 'goth2';
    src: url('goth2.ttf') format('truetype');;
