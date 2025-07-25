@@ -21,18 +21,7 @@
   position: relative;
   z-index: 1;}
 
-.home {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0px;
-    box-sizing: border-box;
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    position: relative;
-    background-image: 
-    url("home.png");
-}
+
 .chisiamo {
     background-image: url("Chi_siamo.png");
 }
