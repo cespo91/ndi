@@ -1,0 +1,160 @@
+.sezione {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home {
+    background-image: url("home.png");
+}
+.chisiamo {
+    background-image: url("Chi_siamo.png");
+}
+.autori {
+    background-image: url("autori.png");
+}   
+.autori2 {
+    background-image: url("autori.png");}
+
+.libri {
+    background-image: url("libri.png");
+}
+.eventi {
+    background-image: url("eventi_bkg.png");
+}
+.contatti {
+    background-image: url("contatti.png");
+}
+
+@font-face {
+   font-family: 'goth2';
+   src: url('goth2.ttf') format('truetype');;
+}
+
+h1 {
+    font-family: 'goth2',Garamond,serif;
+    font-size: 50px;
+    text-align: left;
+}
+h2 {font-family: 'goth2',Garamond,serif;
+    font-size: 40px;
+    color: black;
+    text-align: left;
+}
+
+h3 {font-family: Garamond, serif;
+    font-size: 40px;
+    color: black;
+    text-align: left;
+}
+
+h4 {font-family: Garamond, serif;
+    font-size: 35px;
+    color: black;
+    text-align: left;
+}
+p {
+    font-family: Garamond, serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+address{
+    font-family: Garamond, serif;
+    text-align: left;
+    font-size: 20px;
+    margin: 25px 50px 75px 100px;
+}
+
+a { color: white;
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+a:hover {color: white;
+  text-decoration: underline; /* Sottolineatura al passaggio del mouse */
+}
+
+.contenitore {
+  display: flex;
+  gap: 0px;
+  margin: 0 auto;    /* centra il contenuto */
+}
+
+.box {
+    flex: 3;
+    padding: 100px;
+    margin: 400px 100px 100px 400px
+}
+.box1 {
+    flex: 0.5;
+    padding: 0px;
+    margin: 5px 10px 0px;
+    text-align: center;
+}
+.box2title{
+    flex: 2.5;
+    margin: 10px;
+    padding: 10px;
+}
+.box2{
+    flex: 2.5;
+    margin: 10px;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.6);
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.box2image{
+    flex: 2.5;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.box3{
+    flex: 2.5;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    place-items: left;
+    text-align: left;
+}
+.box4{
+    flex: 1.5;
+    padding: 0px;
+    border-radius: 0px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.menuhome {
+    font-family: Garamond, serif;
+    font-size: 30px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #000000;
+    color: white;
+    flex: 0.5;
+    padding: 10px;
+    margin: 10px 50px 10px 0px
+    
+}
+
+.menu {
+    font-family: Garamond, serif;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #000000;
+    color: white;
+    flex: 0.5;
+    padding: 50px;
+    margin: 10px 10px 0px 0px
+}
