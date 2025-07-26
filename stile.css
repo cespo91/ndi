@@ -273,7 +273,10 @@ a:hover {color: white;
     font-size: 18px;
   }
   .box6 {
-  flex: 1 1 100%;
+    flex: 1 1 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
